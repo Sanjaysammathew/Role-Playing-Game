@@ -1,0 +1,62 @@
+body{
+    background-color: #02041a;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 250px;
+    width: 350px;
+    margin-left: 38%;
+    margin-top: 10%;
+}
+.sub-container{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    padding: 20px;
+}
+.Enemy-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: red;
+    padding: 20px;
+
+}
+.Details{
+    background-color:yellow; 
+    padding: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.topic{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: orange;
+    padding: 8px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid;
+}
+.btn:hover{
+    background-color: white;
+}
